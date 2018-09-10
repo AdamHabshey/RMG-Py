@@ -1083,6 +1083,7 @@ class Molecule(Graph):
         If `raiseException` is `False`, then the generic atomType 'R' will
         be prescribed to any atom when getAtomType fails. Currently used for
         resonance hybrid atom types.
+        :rtype: object
         """
         #Because we use lonepairs to match atomtypes and default is -100 when unspecified,
         #we should update before getting the atomtype.
